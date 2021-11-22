@@ -1,13 +1,7 @@
-﻿int numberA = 5;
-Console.WriteLine(numberA);
-int numberB = 6;
-Console.WriteLine(numberB);
-int result = numberA*numberA ;
-if (numberB == result)
-{
-    Console.WriteLine("YES");
-}
-else
-{
-    Console.WriteLine("NO");
-}
+﻿int a = 7;
+int b = 6;
+int c = 10;
+int max = a;
+if (b > max) max = b;
+if (c > max) max = c;
+Console.WriteLine(max);

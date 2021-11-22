@@ -2,4 +2,4 @@
 
 int num = int.Parse(Console.ReadLine());
 
-Console.WriteLine("num - {0}", num);  
+Console.WriteLine($"num - {num}");
